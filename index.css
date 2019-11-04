@@ -1,0 +1,111 @@
+* {
+    margen : 0 px ;
+    relleno : 0 px ;
+}
+
+encabezado  >  h1 {
+    ancho : 100 % ;
+    fondo : # 0099ff ;
+    altura : 200 px ;
+
+    pantalla : flex ;
+    alinear elementos : centro ;
+    justify-content : centro ;
+}
+
+encabezado {
+    ancho : 100 % ;
+}
+
+nav {
+    margen : auto ;
+    ancho : 100 % ;
+    ancho máximo : 2000 px ;
+}
+
+nav  ul {
+    estilo de lista : ninguno ;
+}
+
+nav  >  ul {
+    pantalla : mesa ;
+    desbordamiento : oculto ;
+    ancho : 100 % ;
+    fondo : # 00ccff ;
+}
+
+/ * va ha tener una posición de celda, los que cumplan con la regla que el puesto. * /
+nav  >  ul  li {
+    display : table-cell ;
+}
+
+/ * Submenú * /
+nav  >  ul  > li : hover  > ul {
+    pantalla : bloque ;
+    altura : auto ;
+}
+nav  >  ul  >  li  >  ul {
+    pantalla : bloque ;
+    / * esto hace que tengamos un menú desplegable * /
+    posición : absoluta ;
+    fondo : # 00ffff ;
+    izquierda : 0 % ;
+    derecha : 0 % ;
+    desbordamiento : oculto ;
+    altura : 0 % ;
+}
+
+nav  >  ul  li  a {
+    color : rojo ;
+    pantalla : bloque ;
+    altura de línea : 20 px ;
+    relleno : 20 px ;
+    posición : relativa ;
+    alinear texto : centro ;
+    / * para quitarle el subrayado feo * /
+    decoración de texto : ninguno ;
+}
+
+nav  >  ul  >  li  >  ul  >  li  a : hover {
+    fondo : amarillo ;
+}
+
+/ * desaparecen los iconos * /
+nav  >  ul  >  li  >  a  img {
+    fondo : verde ;
+    pantalla : bloque ;
+    altura : 100 % ;
+    izquierda : 0 ;
+    posición : absoluta ;
+    / * gracias a esto 'top - 55' escondemos el icono * /
+    arriba : -100 px ;
+    / * ponemos transición para hacer la magia * /
+    transición : .3 s  facilidad ;
+    ancho : 100 % ;
+    
+}
+
+/ * cambiar el tamaño de la imagen * /
+nav  >  ul  >  li  >  a  #dos {
+    ancho : 10 % ;
+}
+
+/ * centrar los iconos * /
+nav  >  ul  >  li  >  a  img .icono {
+    pantalla : bloque ;
+    altura de línea : 60 px ;
+}
+
+/ * magia al menú, para que opere la magia hay que poner las 'transición' donde haga referencia * /
+nav  >  ul  >  li  >  a : hover  >  img {
+    arriba : 0 ;
+}
+
+/ * color a los iconos * /
+#uno {
+    color de fondo : blanchedalmond ;
+}
+
+#dos {
+    fondo : morado ;
+}
