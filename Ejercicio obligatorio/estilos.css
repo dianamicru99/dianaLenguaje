@@ -58,7 +58,7 @@ aside img{
   margin-right: 5px;
 }
 aside{
-  position: relative;
+  object-position:right;
   width: 18%;
   background-color: grey;
   box-shadow: 5px #1c1a19;
@@ -66,6 +66,7 @@ aside{
   padding: 8px;
   color: white;
   font-size: 5;
+  text-align: left;
 }
 
 aside img{
@@ -79,7 +80,7 @@ footer h1{
 .tweet, .fotografias, .amigos
 {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: un;
 }
 
 .tweet
@@ -104,7 +105,7 @@ footer h1{
 
 .amigos ul{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: unset;
   margin-top: 0;
   width: 48%;
   padding-left: 2px;
@@ -113,4 +114,41 @@ footer h1{
 .amigos ul, li, a{
   text-decoration: none;
   color: darkred;
+}
+/* Cuerpo */
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: unset;
+    text-align:left;
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+.cat_icon
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article 
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
 }
