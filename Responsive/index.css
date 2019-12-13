@@ -1,0 +1,55 @@
+header{
+    border: 2px solid black;
+}
+
+.clase1{
+    border:solid;
+    height: 150px;
+    width: 150px;
+background-color: green;
+float :right}
+
+
+.clase2{
+    border: solid;
+    height: 150px;
+ width: 150px;
+ background-color: blue;
+float: left;
+}
+.clase3{
+    border:solid;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    float: left;
+}
+
+footer{ border:solid;
+height: 150;
+width: 150;
+background-color: brown;
+}
+
+.clase1, .clase2, .clase3{
+    width: 400px;
+    height: 400px;
+}
+.clases{
+    display: inline-block;
+}
+header img{
+    width: 40%;
+    
+}
+header ul{
+float: right;
+display: inline-block
+
+}
+
+@media only screen and (max-width:720px)
+{header img {width: 100%;
+ }
+
+
