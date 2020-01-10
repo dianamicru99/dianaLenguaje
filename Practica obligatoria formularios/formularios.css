@@ -1,0 +1,11 @@
+header {
+    border: 1px solid blue;
+    background-color: blue;
+    font-size:white;
+    }
+
+    footer{ border:solid;
+        height: 150;
+        width: 150;
+        background-color: brown;
+        }
