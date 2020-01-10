@@ -8,3 +8,9 @@ function saludo()
 {
 alert("Buenos días");
 }
+funtion Sumar (){
+    //declaro las variables
+    var resultado;
+    var Operando1;
+    var Operando2;
+}
