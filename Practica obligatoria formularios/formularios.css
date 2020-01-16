@@ -10,7 +10,23 @@ header {
         background-color:#f5f5f1;
         }
         
-        
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+         }
+         
+         .contenedor img {
+             width: 60%;
+         }
+         
+         .imagen {
+           box-sizing: border-box;
+           flex-basis: 33.33%;
+           flex-shrink: 0;
+           padding: 5px;
+         }
+         
+         
 
 
 
@@ -28,12 +44,12 @@ header {
         box-sizing: border-box;
         display: inline-block;
     }
-    .foto2{width:%;
+    .foto3{width:%;
         height:auto;
         position:relative;
         display:inline-block;}
 
-    .foto3{
+    .foto4{
         height:auto;
         position:relative;
         display:inline-block;} 
