@@ -1,11 +1,64 @@
 header {
-    border: 1px solid blue;
-    background-color: blue;
+    border: 1px solid ;
+    background-color:royalblue;
     font-size:white;
     }
 
-    footer{ border:solid;
+    footer{ border: 1px solid;
         height: 150;
         width: 150;
-        background-color: brown;
+        background-color:#f5f5f1;
         }
+        
+        .caja1 {
+            overflow:hidden;
+            width:20%;
+        }
+        .caja1 div {
+            /* cualquier altura mayor que el total de sumar la anchura de las img */
+            width:20%;
+        
+            
+        }
+        img {
+            width:100px;
+            height:75px;
+            float:left;
+            margin:10px 10px 0 0;
+        }
+
+
+
+
+
+
+
+    .foto1{
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    }
+    .foto2{
+        width: ;
+        vertical-align: top;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    .foto2{width:%;
+        height:auto;
+        position:relative;
+        display:inline-block;}
+
+    .foto3{
+        height:auto;
+        position:relative;
+        display:inline-block;} 
+    }
+
+    .foto4{height:auto;
+        position:relative;
+        display:inline-block;}}
+
+    .foto1 .foto2 .foto3.foto4{
+
+    
