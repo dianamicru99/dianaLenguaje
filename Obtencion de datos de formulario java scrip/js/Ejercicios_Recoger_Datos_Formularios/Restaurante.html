@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script language="JavaScript">
+        (function ($) {
+            $(function () {
+                // Plugin initialization
+                $('select').not('.disabled').formSelect();
+            });
+        })(jQuery); // end of jQuery name space
+
+        
+    </script>
+
+</head>
+
+<body>
+
+
+    <div class="row">
+
+        <div class="col s10 m4 l10 blue center-align card-panel teal lighten-2">
+            <img id="logo" src="imagenes/logo.jpg" width="100" height="60" alt="logo" />
+
+            <h3>Calcular el Precio del Menú</h3>
+        </div>
+        <div class="row "></div> <!-- linea en blanco -->
+
+        <form class="col s10" onsubmit="return false">
+            <div class="row">
+
+                <div class="input-field col s2">
+                    <input id="precio_base" type="text" class="validate" value="10" readonly>
+                    <label for="precio_base">Precio Base (€)</label>
+                </div>
+                <div class="input-field col s3">
+                    <select id="primer_plato">
+
+                        <option value="0">Canelones</option>
+                        <option value="0">Ensalada</option>
+                        <option value="0">Sopa Castellana</option>
+                        <option value="2">Arroz Bogavante (+2€)</option>
+                    </select>
+                    <label> Primer Plato</label>
+                </div>
+                <div class="input-field col s3">
+                    <select id="segundo_plato">
+
+                        <option value="0">Besugo al Horno</option>
+                        <option value="0"> Filete de Ternera</option>
+                        <option value="0"> Chuletillas de Lechazo</option>
+                        <option value="3">Chuleton (3€)</option>
+                    </select>
+                    <label> Segundo Plato</label>
+                </div>
+                <div class="input-field col s3">
+                    <select id="postre">
+
+                        <option>Flan</option>
+                        <option>Manzana</option>
+                        <option>Arroz con Leche</option>
+                        <option>Tarta de Queso</option>
+                        <option>Helado</option>
+                    </select>
+                    <label> Postre</label>
+                </div>
+
+                <div class="row col s10">
+                    <h6>Suplementos</h6>
+                </div>
+                <div class="col s3">
+
+                    <img class="responsive-img" src="Imagenes/cafe.jpg" width="40" height="40">
+                </div>
+                <div class="col s3">
+                    <img class="responsive-img" src="Imagenes/ribera.jpg" width="40" height="40">
+                </div>
+                <div class="col s4">
+
+                    <img class="responsive-img" src="Imagenes/orujo.jpg" width="50" height="50">
+                </div>
+                <div class="row "></div> <!-- linea en blanco -->
+                <div class="col s3">
+
+                    <label>
+                        <input type="checkbox" id="cafe" value="1" />
+                        <span>Cafe (1 €)</span>
+                    </label>
+
+                </div>
+
+                <div class="col s3">
+
+                    <label>
+                        <input type="checkbox" id="ribera" value="3" />
+                        <span>Ribera de Duero (3 €)</span>
+                    </label>
+
+                </div>
+                <div class="col s3">
+
+                    <label>
+                        <input type="checkbox" id="orujo" value="1" />
+                        <span>Orujo (1 €)</span>
+                    </label>
+
+                </div>
+                <div class="row col s12">
+                    <h6>Descuentos</h6>
+                </div>
+                <div class="col s2">
+
+                    <img class="responsive-img" src="Imagenes/descuentos.png" width="120" height="120">
+                </div>
+                <div class="col s6">
+
+                    <p>
+                        <label>
+                            <input class="with-gap" name="descuentos" type="radio" checked="checked" value="100" />
+                            <span>Sin descuento</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" name="descuentos" type="radio" value="90" />
+                            <span>Familia Numerosa (10%)</span>
+                        </label>
+                        <label>
+                            <input class="with-gap" name="descuentos" type="radio" value="85" />
+                            <span>Desempleo (15%)</span>
+                        </label>
+
+                    </p>
+
+                </div>
+
+               
+                <div class="col s12">
+
+                    <button class="btn waves-effect waves-light" name="calcular" type="submit"
+                        onclick="Calcular_Precio_Menu();">Calcular
+
+                    </button>
+
+                </div>
+                <div class="row "></div> <!-- linea en blanco -->
+                <label class="col s12" for="precio_total">El Precio del Menú es de : </label>
+                <div class="input-field col s3">
+                    <input id="precio_total" type="text" class="validate" readonly>
+                   
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
