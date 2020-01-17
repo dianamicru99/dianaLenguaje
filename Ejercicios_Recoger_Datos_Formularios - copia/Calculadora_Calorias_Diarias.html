@@ -22,7 +22,10 @@
     var peso;
     var altura;
     var edad;
-    
+peso=parseFloat(document.getElementById("peso").value);
+altura=parseFloat(document.getElementById("altura").value);
+edad=parseFloat(document.getElementById("edad").value);
+alert(peso+altura+edad);
 }
     </script>
 </head>
@@ -87,7 +90,7 @@
                 <div class="row "></div> <!-- linea en blanco -->
                 <div class="col s4">
 
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Calcular
+                    <button class="btn waves-effect waves-light" type="submit" name="action" onclick="calcular();">Calcular
 
                     </button>
 
