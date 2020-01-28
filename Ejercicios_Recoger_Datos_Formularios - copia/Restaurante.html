@@ -18,7 +18,32 @@
             });
         })(jQuery); // end of jQuery name space
 
-        
+        function calcular_precio_menu(){
+
+
+            var chk_cafe = parseInt(document.getElemenById("cafe").value);
+            var chk_ribera = parseFloat(document.getElemenById("ribera").value);
+            var chk_orujo = parseFloat(document.getElemenById("orujo").value);
+            var precio = chk_cafe + chk_orujo + chk_ribera;
+
+            if (chk_cafe.checked)
+            {
+                precio=chk_cafe;
+                alert(precio)
+            }   
+
+            else(chk_ribera.checked)
+            {  
+                precio;
+                alert(precio)
+
+            }    
+            {
+                else(chk_orujo.checked)
+            }
+            
+            alert(precio);
+             }    
     </script>
 
 </head>
@@ -145,7 +170,7 @@
                 <div class="col s12">
 
                     <button class="btn waves-effect waves-light" name="calcular" type="submit"
-                        onclick="Calcular_Precio_Menu();">Calcular
+                        onclick="calcular_precio_menu();">Calcular
 
                     </button>
 
