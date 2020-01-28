@@ -24,7 +24,10 @@
             var chk_cafe = parseInt(document.getElemenById("cafe").value);
             var chk_ribera = parseFloat(document.getElemenById("ribera").value);
             var chk_orujo = parseFloat(document.getElemenById("orujo").value);
-            var precio = chk_cafe + chk_orujo + chk_ribera;
+            
+            var precio1;
+            var precio2;
+            var precio3;
 
             if (chk_cafe.checked)
             {
@@ -38,9 +41,13 @@
                 alert(precio)
 
             }    
-            {
-                else(chk_orujo.checked)
-            }
+    
+             else (chk_orujo.checked)
+                {precio3 =chk_orujo;
+                alert(precio3);
+                
+                }
+            
             
             alert(precio);
              }    
