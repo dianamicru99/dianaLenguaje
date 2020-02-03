@@ -18,39 +18,71 @@
             });
         })(jQuery); // end of jQuery name space
 
-        function calcular_precio_menu(){
-.
+        function Calcular_Precio_Menu(){
 
-            var chk_cafe = parseInt(document.getElemenById("cafe").value);
-            var chk_ribera = parseFloat(document.getElemenById("ribera").value);
-            var chk_orujo = parseFloat(document.getElemenById("orujo").value);
+            var cafe = document.getElemenById("cafe");
+            var ribera = document.getElemenById("ribera");
+            var orujo = document.getElemenById("orujo");
+
+            var arroz = document.getElementById("arroz");
+            var chuleton = document.getElementById("chuleton");
             
             var precio1;
             var precio2;
             var precio3;
+            var precio4;
+            var precio5;
+            var precio6;
+            var precio7;
 
-            if (chk_cafe.checked)
-            {
-                precio=chk_cafe;
-                alert(precio)
+
+            if (cafe.checked){
+            precio1= 1 + 10;
+
+            document.getElementById("precio_total").value = precio1;
+
             }   
+            else if (ribera.checked){  
+                precio2= 3 +10;
 
-            else(chk_ribera.checked)
-            {  
-                precio;
-                alert(precio)
+                document.getElementById("precio_total").value = precio2;
 
-            }    
-    
-             else (chk_orujo.checked)
-                {precio3 =chk_orujo;
-                alert(precio3);
-                
+            } else if (orujo.checked)
+                {precio3 = 1 + 10;
+                document.getElementById("precio_total"). value = precio3;
                 }
-            
-            
-            alert(precio);
-             }    
+
+            if(cafe.checked){
+                precio1= 1 + 10;
+
+                document.getElementById("precio_total".value = precio1;
+              } 
+            else if (ribera.checked){
+            precio2= 3 +10
+            document.getElementById("precio_total").value =precio2;
+            } else if(orujo.checked){
+                precio3= 1 +10;
+                document.getElementById("precio_total").value =precio3;
+            }else if(cafe.checked && ribera.checked){
+                precio4= 1 + 3 + 10;
+                document.getElementById(precio_total).value = precio4;
+
+            }else if(ribera.checked && orujo.checked){
+                precio5= 3 + 1 + 10;
+                document.getElementById(precio_total).value = precio5;
+            }else if(cafe.checked && orujo.checked){
+                precio6= 1 + 1 + 10;
+                document.getElementById(precio_total).value = precio6;
+            }else if(ribera.checked && orujo.checked && cafe.checked){
+                precio7= 3 + 1 +  1 + 10;
+                document.getElementById(precio_total).value = precio7;
+               
+                } else{
+                    alert("Eliga  una de las opciones");
+                }
+                
+
+
     </script>
 
 </head>
@@ -177,7 +209,7 @@
                 <div class="col s12">
 
                     <button class="btn waves-effect waves-light" name="calcular" type="submit"
-                        onclick="calcular_precio_menu();">Calcular
+                        onclick="Calcular_Precio_Menu();">Calcular
 
                     </button>
 
