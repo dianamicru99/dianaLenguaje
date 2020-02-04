@@ -7,11 +7,11 @@
     <meta name="description" content="Descripción de la WEB">    
     <link href="formularios.css" rel="stylesheet" type="text/css"/>    
   </head>  
-  <body>.    
+  <body>  
 
 
 <header>
- <color="white">
+ <color="white"></color>
 
     <h1> Crea tu pizza</h1>
         <p>Crea tu pizza!</p>
@@ -58,15 +58,24 @@
 </select><br>
 
 <p>¿Cúanta mozarella te apetece?</p>
+<br>
+<container>
+  <input type="radio" class="radio" name="progress" value="five" id="five">
+  <label for="five" class="label">Sin queso Mozarella</label> 
 
-<pre>
-Sin queso mozarella,  Queso 100% mozarella  Extra de queso 100% mozarella    Doble extra de queso 100% mozarella</pre>
+  <input type="radio" class="radio" name="progress" value="twentyfive" id="twentyfive" checked>
+  <label for="twentyfive" class="label">Queso 100% mozarella</label>
 
-</div>
-<div class ="contenido">
-<span class="bar"></span class ="fill"></span>
-<input type="range" class ="rango"id="rango" smin="0" max="100" />
-</div>
+  <input type="radio" class="radio" name="progress" value="fifty" id="fifty">
+  <label for="fifty" class="label">Extra de queso 100% mozarella</label>
+
+  <input type="radio" class="radio" name="progress" value="seventyfive" id="seventyfive">
+  <label for="seventyfive" class="label">Doble extra de queso 100% mozarella</label>
+
+
+  <div class="progress">
+    <div class="progress-bar"></div>
+  </div>
 
 <hr>
 
