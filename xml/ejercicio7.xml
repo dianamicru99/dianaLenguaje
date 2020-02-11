@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Empresa> 
+<pedido>
+<cliente>
+<fecha_de_pedido> 20 de Abril de 2014</fecha_de_pedido>
+<nombre> Ana simone</nombre>
+<mensaje>
+ "Hola, necesito un Disco Duro extraíble para mi PC de esos que
+ anuncian en su página Web de oferta, me gustaría que fuera uno
+ de 2 Teras, pues si la capacidad es más pequeña se me queda obsoleto
+ en poco tiempo.</mensaje>
+ <datosnecesarios>
+<codigo_postal>47002</codigo_postal>
+<direccion> Valladolid,Plaza de la duquesa 12</direccion>
+<provincia>Valladolid</provincia>
+<persona_a_recoger>Alicia torres</persona_a_recoger>
+</datosnecesarios>
+<productos>
+<producto> Disco duro 148.95€></producto>
+<codigo_de_producto>872;AA</codigo_de_producto>
+<producto> 3 cables HDMI 7,98€</producto>
+<codigo_de_producto>926-FH</codigo_de_producto>
+</productos>
+
+</cliente>
+</pedido>
+</Empresa>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Factura id="876">
+<emision> 2012-02-28T08:25:02</emision>
+<vendedor id="12">
+<nombre> Felipe Cuesta Pérez</nombre>
+//cliente/*
+</vendedor>
+<cliente id="9878">
+<nombre> Raquel Rengo Suárez</nombre>
+<direccion>
+<via> calle Alonso Cano, 2 ,3º A </via>
+<cp>41700</cp>
+<localidad> Dos Hermanas</localidad>
+<provincia> Sevilla</provincia>
+</direccion>
+<telefono num="666111666"/>
+<telefono num="95466611"/>
+</cliente>>
+<articulo id="121" iva="18">
+<denominacion> silla giratoria modelo C-121 </denominacion>
+<precio>98.23</precio>
+<cantidad>1</cantidad>
+</articulo>
+//articulo[cantidad=1 and precio>100]/denominacion/ext()
+sum(//precio[.>100])
+/ies/ciclos/ciclo[@id='SMR'] VER ALGO EN ESPECIAL
+<articulo id="9341" iva="21">
+<denominacion> Mesa estudio </denominacion>
+<precio>193.23</precio>
+<cantidad>1</cantidad>
+</articulo>
+<articulo id="1124" iva="21">
+<denominacion> lampara mesa con pantalla naranja modelo A2-456-X</denominacion>
+<precio>23,12</precio>
+<cantidad>2</cantidad>
+</articulo>
+<articulo id="1125" iva="21">
+<denominacion>mesa estudio ADD-789-Z </denominacion>
+<precio>26,12</precio>
+<cantidad>4</cantidad>
+</articulo>
+<descuento>20</descuento>
+</Factura>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <paneles>
+    <evento>
+     <via> </via>
+     <nombre> Autopista del V Centenario</nombre>
+     <ref> a-49</ref>
+     <origen>Sevilla </origen>
+     <destino> Huelva </destino>
+     <carriles >4</carriles>
+     <via>
+     <pk>42.200</pk>
+     <retencion> long="8.000"</retencion>
+     <sentido>1</sentido>
+     <carrilescortados> valor="1"</carrilescortados >
+     <evento tipo="retencion" fecha="Tue, 1 jan 2001 GMT">
+
+     </via>
+    <tipo></tipo>
+    <fecha> </fecha>
+    </evento>
+
+
+    </paneles>
