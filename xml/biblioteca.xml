@@ -21,9 +21,7 @@
 <precio>98.23</precio>
 <cantidad>1</cantidad>
 </articulo>
-//articulo[cantidad=1 and precio>100]/denominacion/ext()
-sum(//precio[.>100])
-/ies/ciclos/ciclo[@id='SMR'] VER ALGO EN ESPECIAL
+//articulo[cantidad>1]/denominacion/ext()
 <articulo id="9341" iva="21">
 <denominacion> Mesa estudio </denominacion>
 <precio>193.23</precio>
