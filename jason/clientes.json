@@ -1,0 +1,41 @@
+
+ {
+ "Clientes": {
+"Cliente": {
+ "-ID": "283",
+ "Nombre": "Juan Carlos Crespin",
+ "Direccion": {
+ "-verificada": "si",
+ "Calle": "Avda Perú",
+ "Numero": "235",
+"Ciudad": "Fresnedillo",
+ "Provincia": "Valladolid",
+ "CodigoPostal": "47150", 
+ "Pais":"España"
+            }},
+"telefonos":[ "543","903","55"],
+
+
+  
+"Clientes":{
+"Cliente": {
+ "-ID": "110",
+ "Nombre": "Lara Hernández",
+ "Direccion": {
+ "-verificada": "si",
+ "Calle": "Avda Perú",
+ "Numero": "238",
+"Ciudad": "Italia",
+ "Provincia": "Italia",
+ "CodigoPostal": "48954", 
+ "Pais":"Italia"},
+ "telefonos":["999","952"]
+
+
+    
+
+
+
+
+
+
