@@ -1,0 +1,53 @@
+{
+    "cDs EN OFERTA": [
+    { "Titulo":"Still got the blues" ,
+      "Artista":"Gary Moore",
+      "País":"UK",
+      "Compañia discografica":"Virgin records",
+      "precio":"10.20",
+      "Año de publicacion":"1990" }, 
+   
+      {"Titulo":"One night only" ,
+      "Artista":"Bee Gees",
+      "País":"UK",
+      "Compañia discografica":"Polydor",
+      "precio":"10.90",
+      "Año de publicacion":"1998" }, 
+        
+    { "Titulo":"when a man loves a woman" ,
+      "Artista":"Percy Sledge",
+      "País":"USA",
+      "Compañia discografica":"Atlantic",
+      "precio":"8.70",
+      "Año de publicacion":"1987" }, 
+            
+    { "Titulo":"Big Willie Smith" ,
+      "Artista":"Will Smith",
+      "País":"USA",
+      "Compañia discografica":"Columbia",
+      "precio":"9.90",
+      "Año de publicacion":"1997" }, 
+                
+    { "Titulo":"Still got the blues" ,
+     "Artista":"Gary Moore",
+     "País":"UK",
+     "Compañia discografica":"Virgin records",
+     "precio":"10.20",
+     "Año de publicacion":"1990" }, 
+
+     { "Titulo":"La cancion de juan perro" ,
+       "Artista":"Radio Futura",
+       "País":"España",
+       "Compañia discografica":"Sony Music-Ariola",
+       "precio":"9.90",
+       "Año de publicacion":"1987" }, 
+                
+
+     { "Titulo":"The dock of the day" ,
+       "Artista":"Otis Redding",
+       "País":"USA",
+       "Compañia discografica":"Atlantic",
+       "precio":"7.90",
+       "Año de publicacion":"1987" }
+                                                                           
+                        ]}
