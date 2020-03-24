@@ -5,7 +5,7 @@ while monto!=0:
         print("Monto no válido.")
     else:
         total+=monto
-    monto=float(input("Monto de una venta: $"))
+    monto=float(input("Monto de una venta: €"))
 if total>1000:
     total-=total*0.1
 print("Monto total a pagar: €", total)

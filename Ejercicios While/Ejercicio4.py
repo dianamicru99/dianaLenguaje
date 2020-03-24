@@ -7,7 +7,7 @@ while True:
         print("¡Comenzamos!")
     elif opcion==2:
         print("Listado:")
-        print("Diana, Erika, Maria, Monserrat")
+        print("Diana, Erika, Bea, Jess")
     elif opcion==3:
         print("Hasta la próxima")
         break
